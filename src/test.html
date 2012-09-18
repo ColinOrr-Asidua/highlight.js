@@ -1953,6 +1953,24 @@ foo %union% bar
 
 </code></pre>
 
+  <tr>
+    <th>Gherkin
+    <td class="gherkin_en">
+<pre>
+<code>
+Feature: Feature
+  Scenario Outline: A scenario
+    # A comment
+    @tag @tagz
+    Given I have 4 cukes in my "big" and 'Given' Given belly
+      """
+      A doc string with Given
+      """
+    And a table:
+      | with | some |
+      | rows |      |
+    And an email address cukes@gherkin.fake
+</code></pre>
 
 </table>
 
