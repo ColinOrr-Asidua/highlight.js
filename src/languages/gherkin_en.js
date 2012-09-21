@@ -24,7 +24,7 @@ function(hljs) {
         hljs.QUOTE_STRING_MODE,
         hljs.C_NUMBER_MODE,
         {
-            className: 'annotation', begin: '\\s+@[^@\r\n\t ]+'
+            className: 'annotation', begin: '@[^@\r\n\t ]+'
         }
     ]
   };
